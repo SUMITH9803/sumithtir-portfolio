@@ -1,0 +1,226 @@
+{
+  "profile": {
+    "firstName": "Tirumala",
+    "lastName": "Sumith",
+    "role": "AI Engineer",
+    "location": "Hyderabad, India",
+    "headline": "Building useful AI from complex information.",
+    "intro": "I work across practical machine learning, semantic search, and product engineering — turning disconnected information into tools people can use.",
+    "photo": "assets/sumith-portrait.jpeg",
+    "email": "sumithtir@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sumithtir",
+    "github": "https://github.com/SUMITH9803",
+    "availability": "Open to AI / ML opportunities",
+    "resume": "assets/tirumala-sumith-resume.pdf",
+    "contactIntro": "I’m exploring AI and machine learning opportunities where thoughtful engineering can make a real difference.",
+    "photoPosition": 25,
+    "photoGrayscale": true
+  },
+  "brand": {
+    "accent": "#ff4d0b",
+    "stampMark": "TS",
+    "stampTop": "CURIOUS",
+    "stampBottom": "BY DESIGN"
+  },
+  "stats": [
+    {
+      "value": "18,780+",
+      "label": "skills in the knowledge graph"
+    },
+    {
+      "value": "3",
+      "label": "live market data sources"
+    },
+    {
+      "value": "96.5% → near 0%",
+      "label": "placeholder demand values"
+    }
+  ],
+  "about": {
+    "title": "Good AI is more than a model. It is the whole system around it.",
+    "paragraphs": [
+      "I’m a computer science engineer who enjoys turning messy, disconnected information into tools people can act on. At AI Shipshape, I worked on a skills graph, live market signals, job description parsing, and data quality tooling for a resume matching system.",
+      "I’m equally at home exploring language models, building an Android app, or simulating how a network behaves. I care about clear interfaces, thoughtful engineering, and making the details hold up."
+    ],
+    "focus": "Applied AI & product systems"
+  },
+  "projects": [
+    {
+      "title": "AI Resume Ranker",
+      "category": "Applied AI · Production system",
+      "summary": "A skills intelligence and matching system connecting candidate experience with changing job market demand.",
+      "highlights": [
+        "Built an 18,780+ skill graph from Lightcast Open Skills, ESCO, and O*NET taxonomies.",
+        "Combined Adzuna, Stack Overflow, and GitHub signals into a cached demand score.",
+        "Added Gemini job description parsing and scripts that reduced placeholder demand values from 96.5% to near zero."
+      ],
+      "tools": [
+        "Python",
+        "Gemini",
+        "REST APIs",
+        "APScheduler"
+      ]
+    },
+    {
+      "title": "Maritime Resume Ranker",
+      "category": "NLP · Domain search",
+      "summary": "A semantic matching proof of concept for maritime recruitment, designed to understand role-specific context beyond keywords.",
+      "highlights": [
+        "Fine-tuned all-MiniLM-L6-v2 on a corpus of 5,000 resumes.",
+        "Ranked resumes against job descriptions using cosine similarity."
+      ],
+      "tools": [
+        "Transformers",
+        "Sentence Transformers",
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "AI Meal Plan Generator",
+      "category": "Generative AI · Personalization",
+      "summary": "A meal planning app that turns nutrition goals and food preferences into a practical weekly plan.",
+      "highlights": [
+        "Generates multi-day personalized plans from calorie targets, diet, and preferences.",
+        "Provides ingredient lists, shopping cost estimates, and daily nutrition summaries."
+      ],
+      "tools": [
+        "Python",
+        "LangChain",
+        "Gradio",
+        "Google Generative AI"
+      ]
+    },
+    {
+      "title": "Space Rental App",
+      "category": "Android · Product engineering",
+      "summary": "A native Android experience to discover, book, and manage event spaces with real-time data sync.",
+      "highlights": [
+        "Co-developed a mobile app for browsing and booking event spaces.",
+        "Connected Firebase Authentication and Realtime Database."
+      ],
+      "tools": [
+        "Kotlin",
+        "Firebase",
+        "Android"
+      ]
+    },
+    {
+      "title": "Autonomous Vehicle Simulation",
+      "category": "Simulation · Pathfinding",
+      "summary": "A 2D vehicle simulation with interactive controls and collision detection.",
+      "highlights": [
+        "Built with Python and Pygame.",
+        "Modeled real-time driving behavior and pathfinding."
+      ],
+      "tools": [
+        "Python",
+        "Pygame",
+        "Pathfinding"
+      ]
+    },
+    {
+      "title": "Real-time Combat Helmet Prototype",
+      "category": "Embedded AI · Prototype",
+      "summary": "A wearable prototype combining sensors, a microcontroller, and on-device recognition.",
+      "highlights": [
+        "Integrated thermal and night-vision sensors with an ESP8266.",
+        "Prototyped on-device object and facial recognition."
+      ],
+      "tools": [
+        "TensorFlow Lite",
+        "ESP8266",
+        "Arduino"
+      ]
+    },
+    {
+      "title": "Wireless Sensor Network Simulation",
+      "category": "Networking · Simulation",
+      "summary": "A network simulation exploring packet flow across mixed wireless and wired links.",
+      "highlights": [
+        "Configured Wi-Fi nodes, point-to-point links, and CSMA nodes.",
+        "Analyzed network behavior in NS-3."
+      ],
+      "tools": [
+        "NS-3",
+        "C++",
+        "Networking"
+      ]
+    },
+    {
+      "title": "Tour Guide Robot Simulation",
+      "category": "Robotics · Autonomous navigation",
+      "summary": "A simulated campus tour guide robot with vision and proximity sensing.",
+      "highlights": [
+        "Designed the robot in CoppeliaSim and Onshape.",
+        "Explored autonomous navigation and obstacle avoidance."
+      ],
+      "tools": [
+        "CoppeliaSim",
+        "Onshape",
+        "Robotics"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "AI Engineer Intern",
+      "company": "AI Shipshape Ltd.",
+      "date": "Jan 2026 — Jun 2026",
+      "place": "Remote · UK",
+      "description": "Worked on a production-grade resume matching system: skill graph generation, live market demand scoring, Gemini-powered job parsing, and data quality tooling."
+    },
+    {
+      "title": "Web Developer Intern",
+      "company": "ISHAN NETSOL PVT LTD.",
+      "date": "May 2023 — Jul 2023",
+      "place": "Gurgaon, India",
+      "description": "Developed and customized client web applications and modules using Joomla and Odoo, and wrote technical articles for the company blog."
+    }
+  ],
+  "education": [
+    {
+      "title": "B.Tech, Computer Science Engineering",
+      "detail": "JK Lakshmipat University · Jaipur, Rajasthan",
+      "date": "Convocation · Nov 2026"
+    },
+    {
+      "title": "Intermediate (Class XI & XII)",
+      "detail": "Pinegrove College · Hyderabad, Telangana",
+      "date": "2021"
+    },
+    {
+      "title": "High School (Class X)",
+      "detail": "Little Scholars School · Mahbubnagar, Telangana",
+      "date": "2019"
+    }
+  ],
+  "skills": [
+    {
+      "title": "AI & Machine Learning",
+      "detail": "Python · Gemini · LangChain · Hugging Face · Sentence Transformers · TensorFlow Lite · Gradio"
+    },
+    {
+      "title": "Data & Integration",
+      "detail": "REST APIs · SQL · JSON · APScheduler · TTL caching · Market data aggregation"
+    },
+    {
+      "title": "Product & Platforms",
+      "detail": "Kotlin · Android · Firebase · Shopify · Joomla · Odoo · HTML / CSS"
+    },
+    {
+      "title": "Embedded & Simulation",
+      "detail": "ESP8266 · ESP32 · Arduino · NS-3 · CoppeliaSim · Onshape"
+    },
+    {
+      "title": "Languages",
+      "detail": "Python · Java · Kotlin · C++ · SQL"
+    }
+  ],
+  "certifications": [
+    "Google Cybersecurity Professional Certificate — Coursera",
+    "Data Structures — UC San Diego / Coursera",
+    "Blockchain Basics & Smart Contracts — University at Buffalo / Coursera",
+    "Introduction to Data Science — Cisco Networking Academy",
+    "Tata Cybersecurity Security Analyst Job Simulation — Forage"
+  ]
+}
